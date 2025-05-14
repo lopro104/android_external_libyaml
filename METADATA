@@ -1,0 +1,16 @@
+name: "libyaml"
+description:
+    "LibYAML - A C library for parsing and emitting YAML."
+
+third_party {
+  homepage: "https://github.com/yaml/libyaml"
+  identifier {
+    type: "Git"
+    value: "https://github.com/yaml/libyaml"
+    primary_source: true
+    version: "v0.2.5"
+  }
+  version: "v0.2.5"
+  last_upgrade_date { year: 2025 month: 4 day: 21 }
+  license_type: NOTICE
+}
