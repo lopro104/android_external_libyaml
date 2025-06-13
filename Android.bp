@@ -22,4 +22,5 @@ cc_library_static {
         "src/scanner.c",
         "src/writer.c",
     ],
+    vendor_available: true,
 }
