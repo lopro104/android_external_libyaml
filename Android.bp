@@ -1,6 +1,6 @@
 cc_library_static {
     name: "libyaml",
-    visibility: ["//external/libcamera"],
+    visibility: ["//external/libcamera", "//external/libcamera-mainline"],
 
     export_include_dirs: [
         "include",
